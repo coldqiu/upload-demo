@@ -1,6 +1,7 @@
 <template>
  <div class="hello">
    <button @click="uppyUploadHandle">click upload</button>
+   <span>断点续传 <a href="https://github.com/tus">Tus</a>的<a href="https://github.com/tus/tus-js-client">js客户端</a>的在Vue的使用</span>
  </div>
 </template>
 
