@@ -25,7 +25,6 @@ export default {
       this.uppy.getPlugin('Dashboard').openModal()
     },
     initTest () {
-      console.log('initUppy23ee')
       this.uppy = Uppy({
         restrictions: {
           maxFileSize: null,
@@ -59,7 +58,7 @@ export default {
           }
         })
         .use(Tus, {
-          endpoint: 'https://api2.transloadit.com'
+          endpoint: 'https://master.tus.io/files/'
           // headers: {'Tus-Resumable': '1.0.0'}
         })
       // http://192.168.0.13:8080/upload.html
