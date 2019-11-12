@@ -7,7 +7,7 @@
 <script>
 import Uppy from '@uppy/core'
 import Dashboard from '@uppy/dashboard'
-import XHRUpload from '@uppy/xhr-upload' // eslint-disable-line
+// import XHRUpload from '@uppy/xhr-upload' // eslint-disable-line
 import Tus from '@uppy/tus'
 
 export default {
