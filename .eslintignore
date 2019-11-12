@@ -1,0 +1,10 @@
+/build/
+/config/
+/dist/
+/*.js
+
+.babelrc
+.editorconfig
+.eslintrc.js
+.gitignore
+.postcssrc.js
